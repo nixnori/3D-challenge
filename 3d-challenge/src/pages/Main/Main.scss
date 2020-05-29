@@ -1,0 +1,30 @@
+@import '../../partials/variables', '../../partials/mixins';
+
+.main {
+    padding: 1rem 2rem;
+    
+    &__header {
+        @include header;
+        margin-bottom: 0.25rem;
+    }
+
+    &__business-name {
+        @include subtitle;
+    }
+
+    &__overview {
+        text-align: center;
+        padding: 1.5rem 1rem;
+    }
+}
+
+.overview {
+    &__header {
+        @include header;
+        margin-bottom: 0.5rem;
+    }
+
+    &__title {
+        font-weight: 100;
+    }
+}
