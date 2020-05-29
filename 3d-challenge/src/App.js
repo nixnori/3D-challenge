@@ -4,11 +4,11 @@ import { BrowswerRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowswerRouter>
+    <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Main} />
       </Switch>
-    </BrowswerRouter>
+    </BrowserRouter>
   );
 }
 
