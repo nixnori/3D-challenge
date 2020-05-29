@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Header from '../../components/Header/Header';
+
 
 class Main extends Component {
     
     render() {
         return (
-            <>
-                <Header />
-            </>
+            <div className="main">
+                <h1 className="main__header">Hello, Ms. Sharon</h1>
+                <h4 className="main__business-name">Mamma Mia Restaurant</h4>
+            </div>
         )
     }
 }
