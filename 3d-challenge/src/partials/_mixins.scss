@@ -1,3 +1,5 @@
+@import './fonts', './variables';
+
 $tablet: 768px;
 $desktop: 1200px;
 
@@ -12,3 +14,25 @@ $desktop: 1200px;
         @content;
     }
 };
+
+@mixin header {
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: $grayBlue;
+    font-size: 1.5rem;
+
+}
+
+@mixin subtitle {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: $grayBlue;
+    font-size: 1rem;
+}
+
+@mixin button-text {
+    font-family: 'Roboto';
+    font-weight: 900;
+    color: $navy;
+    font-size: 1.125rem;
+}
