@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Main.scss';
+import Card from '../../components/Card/Card';
 
 class Main extends Component {
     
@@ -11,6 +12,7 @@ class Main extends Component {
                 <div className="main__overview">
                     <h1 className="overview__header">Overview</h1>
                     <h3 className="overview__title">Owner</h3>
+                    <Card />
                 </div>
             </div>
         )

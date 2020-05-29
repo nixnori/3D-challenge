@@ -1,0 +1,44 @@
+@import '../../partials/variables';
+
+.card {
+    width: 80%;
+    // height: 235px;
+    margin: 20px auto;
+    background: rgba(147, 164, 223, 0.2);
+    border-radius: 5px;
+    padding: 0 0.5rem 1rem;
+   
+    &-title {
+      font-size: 0.8126rem;
+      text-align: center;
+      padding: 15px 0 10px 0;
+      font-weight: 600;
+    }
+    
+    &-score {
+      width: 125px;
+      height: 125px;
+      border: 13px solid rgb(40, 184, 40);
+      border-radius: 50%;
+      margin: 0 auto;
+      font-weight: 300;
+      font-size: 2.8rem;
+      text-align: center;
+      padding-top: 23px;
+    }
+   
+    &-details {
+      width: 100%;
+      padding-top: 10px;
+      display: flex;
+    }
+  
+    &-button {
+      height: 30px;
+      width: 130px;
+      margin: 0 auto;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+      border: solid 2px $navy
+    }
+  }

@@ -8,11 +8,11 @@ class Header extends Component {
     render() {
         return (
             <div className="header">
+                <img className="header__menu" src={hamburger} />
                 <div className="header__container">
-                    <img className="header__menu" src={hamburger} />
                     <img className="header__logo" src={logo} />
+                    <Link to="" className="header__link">Updated COVID-19 Business Regulations</Link>
                 </div>
-                <Link to="" className="header__link">Updated COVID-19 Business Regulations</Link>
             </div>
         )
     }
